@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "wow",
+    "url": "http://www.warcraft.com"
+}
+
+
+###
+GET http://localhost:3333/api/gerados
+
+
+###
+GET http://localhost:3333/wow
+
+
+###
+GET http://localhost:3333/api/metricas
